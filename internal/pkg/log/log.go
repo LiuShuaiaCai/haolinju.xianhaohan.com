@@ -2,7 +2,6 @@ package log
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/google/wire"
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs" // 日志分割
 	"github.com/rifflock/lfshook"                       //日志钩子
 	"github.com/sirupsen/logrus"
@@ -13,8 +12,7 @@ import (
 
 // Create a new instance of the logger. You can have any number of instances.
 var (
-	logger   = logrus.New()
-	Provider = wire.NewSet(Init)
+	logger = logrus.New()
 )
 
 type Fields logrus.Fields
