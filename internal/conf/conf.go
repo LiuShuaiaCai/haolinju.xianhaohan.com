@@ -1,14 +1,12 @@
 package conf
 
 import (
-	"github.com/google/wire"
 	"gopkg.in/yaml.v3"
 	"haolinju.xianhaohan.com/internal/pkg/conf"
 )
 
 var (
-	Conf     *AppConfig
-	Provider = wire.NewSet(Init)
+	Conf *AppConfig
 )
 
 func (c *AppConfig) Set(text []byte) error {
