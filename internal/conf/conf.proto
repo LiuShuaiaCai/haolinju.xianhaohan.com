@@ -1,0 +1,61 @@
+syntax = "proto3";
+
+package haolinju.xianhaohan.com.api;
+
+option go_package = "haolinju.xianhaohan.com/internal/conf;conf";
+
+
+message AppConfig {
+    App app = 1;
+    Server server = 2;
+    Db db = 3;
+}
+
+// 应用配置
+message App {
+    message Log {
+        string path = 1;
+        int32 max_age = 2;
+        int32 rotation_time = 3;
+    }
+    string mode = 1;
+    Log log = 2;
+}
+
+// 服务配置
+message Server {
+    message Http {
+        string addr = 1;
+        int32 timeout = 2;
+    }
+    message Grpc {
+        string addr = 2;
+        int32 timeout = 3;
+    }
+    Http http = 1;
+    Grpc grpc = 2;
+}
+
+
+// 数据库配置
+message Db {
+    message Mysql {
+        message Client {
+            string dsn = 1;
+            int64 max = 2;
+            int64 idle = 3;
+            int64 life_time = 4;
+            bool log_mode = 5;
+        }
+        Client haolinju = 1;
+    }
+    message Redis {
+        string network = 1;
+        string addr = 2;
+        int32 read_timeout = 3;
+        int32 write_timeout = 4;
+    }
+
+    Mysql mysql = 1;
+    Redis redis = 2;
+}
