@@ -9,7 +9,7 @@ import (
 
 var (
 	Provider = wire.NewSet(New)
-	svc      *services.Service
+	Svc      *services.Service
 )
 
 type Controller struct {
@@ -18,8 +18,7 @@ type Controller struct {
 
 // New new a bm server.
 func New(s *services.Service) (engine *gin.Engine, err error) {
-	svc = s
-
+	Svc = s
 	// 初始化引擎
 	engine = gin.Default()
 

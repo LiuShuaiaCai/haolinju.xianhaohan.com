@@ -16,18 +16,20 @@ type Response struct {
 	Data      interface{} `json:"data"`
 }
 
-func JSON(ctx *gin.Context, data interface{}, code int) {
-	writeStatusCode(ctx.Writer, code)
+func JSON(ctx *gin.Context, data interface{}, err error) {
+	code := TextCode(err)
+
+	writeStatusCode(ctx.Writer, code.Code)
 
 	// 状态码
-	var statusCode = code
-	if code > StatusCustomStart {
+	var statusCode = code.Code
+	if code.Code > StatusCustomStart {
 		statusCode = StatusOK
 	}
 
 	resp := Response{
-		Status:    code,
-		Message:   CodeText(code),
+		Status:    code.Code,
+		Message:   code.Msg,
 		Time:      time.Now().Unix(),
 		RequestId: common.Trace(ctx),
 		Data:      data,
