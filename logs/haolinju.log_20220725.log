@@ -1,0 +1,21 @@
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/plan?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"8887bc33-624a-41f9-aced-9258774afe30","time":"2022-07-25 18:05:32"}
+{"level":"info","msg":"get a signal","requestId":"d36a3ce6-9c0b-46b1-ad6c-edbe8d04baa4","signal":"interrupt","time":"2022-07-25 18:13:17"}
+{"level":"info","msg":"api exit...","requestId":"3944aade-85a7-4e2e-8ad5-ae05bc29eac4","time":"2022-07-25 18:13:17"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"4fd8107a-a413-4968-a1b3-9c7cc80cba84","time":"2022-07-25 18:19:44"}
+{"level":"info","msg":"get a signal","requestId":"88b00504-9152-4f1a-b839-3350140cd82b","signal":"interrupt","time":"2022-07-25 22:54:36"}
+{"level":"info","msg":"api exit...","requestId":"13daa388-11ae-423f-ade2-407fa3a4ef96","time":"2022-07-25 22:54:36"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"04989d7d-6e92-4de6-bd14-1e1ef2847f9d","time":"2022-07-25 22:55:50"}
+{"clientIp":"127.0.0.1","latency":"0s ms","level":"info","msg":"request info","params":null,"path":"/api/v1/banner/save","requestId":"dab9c85c-2325-4ce5-9808-d00f518f15fc","time":"2022-07-25 23:03:20"}
+{"level":"info","msg":"get a signal","requestId":"359d72e8-c264-4aff-88cd-b308a4c7605c","signal":"interrupt","time":"2022-07-25 23:05:29"}
+{"level":"info","msg":"api exit...","requestId":"7e51d771-c7ba-43b5-8915-38da74d38469","time":"2022-07-25 23:05:29"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"60ebe7e8-39f0-40f2-aa81-90e23f85a2b7","time":"2022-07-25 23:05:35"}
+{"clientIp":"127.0.0.1","latency":"0s ms","level":"info","msg":"request info","params":null,"path":"/api/v1/banner/save","requestId":"b11fbb5f-fb8b-40f3-9378-d56a0205badc","time":"2022-07-25 23:05:40"}
+{"level":"info","msg":"get a signal","requestId":"a1b57faa-8599-4e98-8e87-e904ae88b08e","signal":"interrupt","time":"2022-07-25 23:06:28"}
+{"level":"info","msg":"api exit...","requestId":"91d75684-3d3d-416a-ab2d-5eb1a501e6ed","time":"2022-07-25 23:06:28"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"7da2173c-f3c8-4391-b1c9-6869a446f047","time":"2022-07-25 23:06:32"}
+{"banner":{"id":0,"created_at":"2022-07-25T23:06:37.130139+08:00","updated_at":"2022-07-25T23:06:37.130142+08:00","deleted_at":"0001-01-01T00:00:00Z","name":"Banner4","img_url":"https://ossweb-img.qq.com/images/lol/web201310/skin/big39000.jpg","jump_url":"/pages/logs/logs","sort":5,"village_id":1},"clientIp":"127.0.0.1","error":"Error 1146: Table 'haolinju.banners' doesn't exist","level":"error","msg":"Banner保存失败","requestId":"03d12fff-e9d6-4b2f-acf8-7b0872629fee","time":"2022-07-25 23:06:37"}
+{"clientIp":"127.0.0.1","latency":"211ns ms","level":"info","msg":"request info","params":null,"path":"/api/v1/banner/save","requestId":"03d12fff-e9d6-4b2f-acf8-7b0872629fee","time":"2022-07-25 23:06:37"}
+{"level":"info","msg":"get a signal","requestId":"fab1aa59-3306-4495-a044-6f2ad6434eda","signal":"hangup","time":"2022-07-25 23:07:06"}
+{"level":"info","msg":"get a signal","requestId":"aea6a884-9255-4450-ac77-6e5743bcc94f","signal":"hangup","time":"2022-07-25 23:07:06"}
+{"level":"info","msg":"get a signal","requestId":"36c2994e-7c1f-457a-b501-96424c6d27dd","signal":"terminated","time":"2022-07-25 23:07:27"}
+{"level":"info","msg":"api exit...","requestId":"ba7f33a8-b938-4553-9b9d-cc9bcdc69eb4","time":"2022-07-25 23:07:27"}

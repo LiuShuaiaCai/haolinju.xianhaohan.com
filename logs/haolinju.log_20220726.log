@@ -1,0 +1,85 @@
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"e249b63f-3bb5-4d3f-9e84-e8642cb99a55","time":"2022-07-26 09:18:03"}
+{"banner":{"id":0,"created_at":"2022-07-26T09:18:49.421972+08:00","updated_at":"2022-07-26T09:18:49.421973+08:00","deleted_at":"0001-01-01T00:00:00Z","name":"Banner4","img_url":"https://ossweb-img.qq.com/images/lol/web201310/skin/big39000.jpg","jump_url":"/pages/logs/logs","sort":5,"village_id":1},"clientIp":"127.0.0.1","error":"Error 1146: Table 'haolinju.banners' doesn't exist","level":"error","msg":"Banner保存失败","requestId":"dd7bb5e5-d273-403b-87f2-9c7281de8640","time":"2022-07-26 09:18:49"}
+{"clientIp":"127.0.0.1","latency":"21ns ms","level":"info","msg":"request info","params":null,"path":"/api/v1/banner/save","requestId":"dd7bb5e5-d273-403b-87f2-9c7281de8640","time":"2022-07-26 09:18:49"}
+{"level":"info","msg":"get a signal","requestId":"e7d9eeaa-392a-4b2e-b587-a8318e7e8772","signal":"interrupt","time":"2022-07-26 09:20:51"}
+{"level":"info","msg":"api exit...","requestId":"ecda44bb-6adf-4427-a286-ff2e6604315c","time":"2022-07-26 09:20:51"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"0d4e55d3-393c-4520-ab26-a561ff509e49","time":"2022-07-26 09:21:00"}
+{"level":"info","msg":"get a signal","requestId":"0590e36c-11bb-4a84-8ba0-e2bcfbbfddd9","signal":"interrupt","time":"2022-07-26 09:23:06"}
+{"level":"info","msg":"api exit...","requestId":"7db9ddc3-43a5-4c38-ba25-c20672378da5","time":"2022-07-26 09:23:06"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"a8efa6b4-fdd8-4dc9-a8c7-5199acad13f7","time":"2022-07-26 09:23:14"}
+{"level":"info","msg":"get a signal","requestId":"65b10293-c861-444c-a500-e4bd34335c79","signal":"interrupt","time":"2022-07-26 09:24:20"}
+{"level":"info","msg":"api exit...","requestId":"9a11dcf5-711c-4888-a300-8aa6eec553f7","time":"2022-07-26 09:24:20"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"873f2b82-2410-47a0-9866-cb3c0ad20518","time":"2022-07-26 09:24:55"}
+{"clientIp":"::1","latency":"0s ms","level":"info","msg":"request info","params":null,"path":"","requestId":"395bcc99-2a61-41ff-8ad2-2c720536fa73","time":"2022-07-26 09:33:57"}
+{"clientIp":"::1","latency":"0s ms","level":"info","msg":"request info","params":null,"path":"","requestId":"e16964ff-c6a1-475d-a47b-dde3b787fa60","time":"2022-07-26 09:34:02"}
+{"level":"info","msg":"get a signal","requestId":"87264f9e-9f64-4e14-a281-762a19abd03a","signal":"interrupt","time":"2022-07-26 09:34:07"}
+{"level":"info","msg":"api exit...","requestId":"f02fe5e9-5079-40cc-bf7e-2e6652b024d1","time":"2022-07-26 09:34:07"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"653c63e7-1c73-4643-8037-2222b4130108","time":"2022-07-26 12:39:16"}
+{"level":"info","msg":"get a signal","requestId":"094436d8-33ae-4f92-acf0-7cd1dcb920ec","signal":"interrupt","time":"2022-07-26 12:44:20"}
+{"level":"info","msg":"api exit...","requestId":"28dd5084-a9d0-4069-866f-9aae9b1cb267","time":"2022-07-26 12:44:20"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"a031bfeb-a449-482d-a2c2-024c87e6b961","time":"2022-07-26 12:44:31"}
+{"level":"info","msg":"get a signal","requestId":"3edfe713-53fa-44ca-9ba6-48fa160f055f","signal":"interrupt","time":"2022-07-26 12:45:09"}
+{"level":"info","msg":"api exit...","requestId":"c2b92a75-cc65-4fe2-97af-e2fcaa8b7988","time":"2022-07-26 12:45:09"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"2b895963-ce44-4eed-8533-0e8eff842296","time":"2022-07-26 12:45:17"}
+{"level":"info","msg":"get a signal","requestId":"e3057685-5ad5-45b2-918c-5349c94d3c0b","signal":"interrupt","time":"2022-07-26 12:45:49"}
+{"level":"info","msg":"api exit...","requestId":"e868b938-f64c-40e0-a3e6-e39834a5a84c","time":"2022-07-26 12:45:49"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"b0398e9d-a4a7-4e96-b003-1764ae8988b1","time":"2022-07-26 12:45:56"}
+{"level":"info","msg":"get a signal","requestId":"a8a7c718-c64f-4b9e-ba17-b506df330bec","signal":"interrupt","time":"2022-07-26 13:24:30"}
+{"level":"info","msg":"api exit...","requestId":"3347bf48-883b-4577-8228-3e81207d2027","time":"2022-07-26 13:24:30"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"19d50c26-1042-44ee-8857-5b678091f644","time":"2022-07-26 13:24:40"}
+{"level":"info","msg":"get a signal","requestId":"987810ba-b63c-4b65-a857-b5029244fed5","signal":"interrupt","time":"2022-07-26 13:27:52"}
+{"level":"info","msg":"api exit...","requestId":"1dcb0d51-f25e-487b-9c05-97a6719e8115","time":"2022-07-26 13:27:52"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"03fe3b0f-1094-4aeb-b271-e313fbbc2511","time":"2022-07-26 13:28:00"}
+{"level":"info","msg":"get a signal","requestId":"13bdebd7-37f4-4d25-81de-5cdf3757c786","signal":"interrupt","time":"2022-07-26 13:36:09"}
+{"level":"info","msg":"api exit...","requestId":"b1255d73-e0ec-4849-9d59-82ae68154e32","time":"2022-07-26 13:36:09"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"678a8a75-b0dc-430a-8322-e7125f054951","time":"2022-07-26 13:36:19"}
+{"level":"info","msg":"get a signal","requestId":"12dead23-5233-4ee5-aa33-161ae1aa19cd","signal":"interrupt","time":"2022-07-26 13:37:09"}
+{"level":"info","msg":"api exit...","requestId":"e81cadef-55d3-402b-b29a-b085cf63244f","time":"2022-07-26 13:37:09"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"ff714ec4-15fe-41e8-a9d8-de57b075cb13","time":"2022-07-26 13:37:16"}
+{"level":"info","msg":"get a signal","requestId":"43c99c2e-732d-4443-a65f-fbd208734142","signal":"interrupt","time":"2022-07-26 13:37:56"}
+{"level":"info","msg":"api exit...","requestId":"7d464e71-ce75-414c-a9c3-6a0eed0fb849","time":"2022-07-26 13:37:56"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"4d2da92b-41b3-4d1c-96e9-8350e2d0b7d9","time":"2022-07-26 13:38:05"}
+{"level":"info","msg":"get a signal","requestId":"daeeeeab-cf6c-49ef-894f-43a25a2a13c5","signal":"interrupt","time":"2022-07-26 14:14:10"}
+{"level":"info","msg":"api exit...","requestId":"bb103faf-5362-4e2d-93ae-8df59344aa09","time":"2022-07-26 14:14:10"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"0d9f13ab-ee02-4f37-9590-d0398d06b1ba","time":"2022-07-26 14:14:21"}
+{"level":"info","msg":"get a signal","requestId":"1d44c396-6ae9-4859-8627-909f2a8262b2","signal":"interrupt","time":"2022-07-26 14:14:46"}
+{"level":"info","msg":"api exit...","requestId":"51c3d9f8-a1fe-400a-ae5d-00334d49d46c","time":"2022-07-26 14:14:46"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"54754e93-d9ed-4fc7-b279-69a13f263d93","time":"2022-07-26 14:14:54"}
+{"level":"info","msg":"get a signal","requestId":"ad0d6737-ea44-44da-a478-aa8f92ef75e3","signal":"interrupt","time":"2022-07-26 14:15:28"}
+{"level":"info","msg":"api exit...","requestId":"09c785de-c837-436a-88fd-8ee82e70c951","time":"2022-07-26 14:15:28"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"41870570-721f-4fb5-b829-6f37a3605672","time":"2022-07-26 14:15:37"}
+{"level":"info","msg":"get a signal","requestId":"3b79d885-3092-4e8d-ac32-110fd209523e","signal":"interrupt","time":"2022-07-26 14:16:07"}
+{"level":"info","msg":"api exit...","requestId":"f06c64cc-bfc6-4cb8-9cd1-3d7839e3aac5","time":"2022-07-26 14:16:07"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"b8f496b8-8e20-48ad-adc0-d632fd4cb2e8","time":"2022-07-26 14:17:28"}
+{"level":"info","msg":"get a signal","requestId":"c52a5890-76fc-4b2f-8486-8303aba04f6e","signal":"interrupt","time":"2022-07-26 14:18:15"}
+{"level":"info","msg":"api exit...","requestId":"a98faba3-261d-45cf-8b5e-b9968004652d","time":"2022-07-26 14:18:15"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"e936d433-6456-435f-a221-a05db4459005","time":"2022-07-26 14:26:58"}
+{"level":"info","msg":"get a signal","requestId":"aaa9200d-6771-4ad1-b453-2c26e27d9f90","signal":"interrupt","time":"2022-07-26 14:31:03"}
+{"level":"info","msg":"api exit...","requestId":"2ae5cec6-fb5d-4bba-ade3-3c65edaa3534","time":"2022-07-26 14:31:03"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"87529832-469f-49d9-a414-0cae7b23ef70","time":"2022-07-26 18:45:26"}
+{"level":"info","msg":"get a signal","requestId":"f1293b5e-24a4-4569-bb1f-455dcc47fe2f","signal":"interrupt","time":"2022-07-26 18:45:48"}
+{"level":"info","msg":"api exit...","requestId":"4953940f-2b54-4bd7-8782-81f05cd473c8","time":"2022-07-26 18:45:48"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"22cf71a4-8ae8-4e22-bacc-ec7921c75976","time":"2022-07-26 18:45:59"}
+{"level":"info","msg":"get a signal","requestId":"7a3cccce-d967-49c9-a600-2960ddccdc0e","signal":"interrupt","time":"2022-07-26 18:46:11"}
+{"level":"info","msg":"api exit...","requestId":"eddec44f-8cfa-4611-a2b1-07b62b57b234","time":"2022-07-26 18:46:11"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"5b569355-fb7f-4e9c-90b5-8a4f8e9bb7ac","time":"2022-07-26 18:46:15"}
+{"level":"info","msg":"get a signal","requestId":"2e265b37-a84c-46c8-bf3f-bfdc15246458","signal":"interrupt","time":"2022-07-26 18:47:19"}
+{"level":"info","msg":"api exit...","requestId":"a472366c-8cb2-4082-bf75-a0a21ca8cc4b","time":"2022-07-26 18:47:19"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"94012feb-8772-4dba-91a7-34a7d2747262","time":"2022-07-26 18:47:35"}
+{"level":"info","msg":"get a signal","requestId":"6e780411-52f2-4e3f-b43b-fecde043aa5a","signal":"interrupt","time":"2022-07-26 18:49:00"}
+{"level":"info","msg":"api exit...","requestId":"b6dc5cb2-6dcb-4aea-8757-f42f5e17676f","time":"2022-07-26 18:49:00"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"539f2720-8168-4560-94b7-c60630dd1f28","time":"2022-07-26 18:49:35"}
+{"level":"info","msg":"get a signal","requestId":"7be24574-7723-48c4-a8bb-5d461e4d5a18","signal":"interrupt","time":"2022-07-26 18:49:49"}
+{"level":"info","msg":"api exit...","requestId":"73866361-c75c-4ae9-8eef-2028a0968041","time":"2022-07-26 18:49:49"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"2f6f0931-7e48-40a7-9283-c6d3fa3187fe","time":"2022-07-26 18:49:53"}
+{"level":"info","msg":"get a signal","requestId":"4f90efc9-2691-4b9e-8731-8fad70a69881","signal":"interrupt","time":"2022-07-26 18:50:12"}
+{"level":"info","msg":"api exit...","requestId":"616a9cd2-bd97-4a8d-b324-390f3c51b337","time":"2022-07-26 18:50:12"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"f4aac242-512c-4199-99a4-b5cfeab7593b","time":"2022-07-26 18:50:16"}
+{"level":"info","msg":"get a signal","requestId":"91266826-5158-473d-9fee-76562e8d4562","signal":"interrupt","time":"2022-07-26 18:51:07"}
+{"level":"info","msg":"api exit...","requestId":"059a5ae4-b8dc-430f-9eeb-b385a1b983f9","time":"2022-07-26 18:51:07"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"5d55b8b1-5cbb-46e5-905e-bff870198852","time":"2022-07-26 18:51:17"}
+{"level":"info","msg":"get a signal","requestId":"cd7d4fe1-ef98-4327-856b-206fc90fc69b","signal":"interrupt","time":"2022-07-26 18:51:26"}
+{"level":"info","msg":"api exit...","requestId":"777a6eba-6534-4df4-a9c0-507b880f3d74","time":"2022-07-26 18:51:26"}
+{"conf":{"dsn":"root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s\u0026readTimeout=1s\u0026writeTimeout=1s\u0026parseTime=true\u0026loc=Local\u0026charset=utf8mb4,utf8","max":500,"idle":20},"level":"info","msg":"[DB] new db client","requestId":"ab5ef282-821a-423a-98ba-1680f062096b","time":"2022-07-26 18:51:34"}
+{"level":"info","msg":"get a signal","requestId":"990db62f-97a3-4289-a346-76988dd6a69e","signal":"interrupt","time":"2022-07-26 22:17:27"}
+{"level":"info","msg":"api exit...","requestId":"d33c4e75-5079-43fe-9879-6392b8de400f","time":"2022-07-26 22:17:27"}
