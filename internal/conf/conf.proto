@@ -3,7 +3,7 @@ syntax = "proto3";
 package haolinju.xianhaohan.com.api;
 
 option go_package = "haolinju.xianhaohan.com/internal/conf;conf";
-
+//  protoc --proto_path=./internal --proto_path=./third_party --go_out=paths=source_relative:./internal conf/conf.proto
 
 message AppConfig {
     App app = 1;
@@ -15,7 +15,7 @@ message AppConfig {
 message App {
     message Log {
         string path = 1;
-        int32 max_age = 2;
+        int64 max_age = 2;
         int32 rotation_time = 3;
     }
     string mode = 1;
@@ -29,8 +29,8 @@ message Server {
         int32 timeout = 2;
     }
     message Grpc {
-        string addr = 2;
-        int32 timeout = 3;
+        string addr = 1;
+        int32 timeout = 2;
     }
     Http http = 1;
     Grpc grpc = 2;
@@ -40,14 +40,12 @@ message Server {
 // 数据库配置
 message Db {
     message Mysql {
-        message Client {
-            string dsn = 1;
-            int64 max = 2;
-            int64 idle = 3;
-            int64 life_time = 4;
-            bool log_mode = 5;
-        }
-        Client haolinju = 1;
+        string dsn = 1;
+        int64 max = 2;
+        int64 idle = 3;
+        int64 life_time = 4;
+        bool log_mode = 5;
+        string table_prefix = 6;
     }
     message Redis {
         string network = 1;

@@ -95,6 +95,7 @@ func checkPathExists() (err error) {
 		}
 		confPath = fmt.Sprintf("%s/%s", confPathDir, "configs/config.yaml")
 	}
+
 	// 文件信息
 	s, err := os.Stat(confPath)
 	if err != nil {

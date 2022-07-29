@@ -68,6 +68,6 @@ func TextCode(err error) eCode {
 
 	return eCode{
 		Code: c,
-		Msg:  err.Error(),
+		Msg:  msg,
 	}
 }

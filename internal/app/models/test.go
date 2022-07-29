@@ -13,7 +13,7 @@ type User struct {
 }
 
 func (m *Model) Users(ctx *gin.Context) (users []User, err error) {
-	if err := m.hlj.Find(&users).Error; err != nil {
+	if err := m.db.Find(&users).Error; err != nil {
 		log.Warn(ctx, "查询账号数据失败", log.Fields{
 			"error": err,
 		})

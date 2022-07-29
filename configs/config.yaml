@@ -1,9 +1,9 @@
 app:
   mode: debug
   log:
-    path: logs/haolinju.log
-    max_age: 168
-    rotation_time: 249
+    path: "logs/haolinju.log"
+    maxage: 168
+    rotationtime: 249
 server:
   http:
     addr: 0.0.0.0:8000
@@ -11,16 +11,15 @@ server:
   grpc:
     addr: 0.0.0.0:9001
     timeout: 1
-# 数据库
 db:
   mysql:
-    haolinju:
-      dsn: root:liushuaicai@tcp(127.0.0.1:3306)/plan?timeout=1s&readTimeout=1s&writeTimeout=1s&parseTime=true&loc=Local&charset=utf8mb4,utf8
-      max: 500
-      idle: 20
-      life_time: 600
-      log_mode: true
+    dsn: root:liushuaicai@tcp(127.0.0.1:3306)/haolinju?timeout=1s&readTimeout=1s&writeTimeout=1s&parseTime=true&loc=Local&charset=utf8mb4,utf8
+    max: 500
+    idle: 20
+    lifetime: 600
+    logmode: true
+    tableprefix: hh_
   redis:
     addr: 127.0.0.1:6379
-    read_timeout: 0.2
-    write_timeout: 0.2
+    readtimeout: 0.2
+    writetimeout: 0.2

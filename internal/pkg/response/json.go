@@ -9,11 +9,11 @@ import (
 )
 
 type Response struct {
-	Status    int         `json:"status"`
-	Message   string      `json:"message"`
-	Time      int64       `json:"time"`
-	RequestId string      `json:"request_id"`
-	Data      interface{} `json:"data"`
+	StatusCode int         `json:"statusCode"`
+	Message    string      `json:"message"`
+	Time       int64       `json:"time"`
+	RequestId  string      `json:"request_id"`
+	Data       interface{} `json:"data"`
 }
 
 func JSON(ctx *gin.Context, data interface{}, err error) {
@@ -28,11 +28,11 @@ func JSON(ctx *gin.Context, data interface{}, err error) {
 	}
 
 	resp := Response{
-		Status:    code.Code,
-		Message:   code.Msg,
-		Time:      time.Now().Unix(),
-		RequestId: common.Trace(ctx),
-		Data:      data,
+		StatusCode: code.Code,
+		Message:    code.Msg,
+		Time:       time.Now().Unix(),
+		RequestId:  common.Trace(ctx),
+		Data:       data,
 	}
 	ctx.JSON(statusCode, resp)
 	return

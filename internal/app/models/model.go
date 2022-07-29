@@ -3,7 +3,7 @@ package models
 import (
 	"github.com/go-redis/redis/v8"
 	"github.com/google/wire"
-	"github.com/jinzhu/gorm"
+	"gorm.io/gorm"
 	"haolinju.xianhaohan.com/internal/conf"
 	"haolinju.xianhaohan.com/internal/pkg/component"
 )
@@ -11,7 +11,7 @@ import (
 var Provider = wire.NewSet(New)
 
 type Model struct {
-	hlj   *gorm.DB
+	db    *gorm.DB
 	redis *redis.Client
 }
 
@@ -20,7 +20,7 @@ func New(conf *conf.AppConfig) (d *Model, cf func(), err error) {
 	model := &Model{}
 
 	// 链接数据库
-	model.hlj, err = component.NewMysql(conf.Db.Mysql.Haolinju)
+	model.db, err = component.NewMysql(conf.Db.Mysql)
 
 	// 链接redis
 
@@ -29,7 +29,8 @@ func New(conf *conf.AppConfig) (d *Model, cf func(), err error) {
 	return model, model.Close, err
 }
 
-func (d *Model) Close() {
-	_ = d.hlj.Close()
+func (m *Model) Close() {
+	sqlDB, _ := m.db.DB()
+	_ = sqlDB.Close()
 	//_ = d.redis.Close()
 }

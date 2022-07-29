@@ -11,6 +11,7 @@ var (
 
 func (c *AppConfig) Set(text []byte) error {
 	var appConfig AppConfig
+
 	if err := yaml.Unmarshal(text, &appConfig); err != nil {
 		return err
 	}

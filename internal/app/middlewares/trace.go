@@ -28,6 +28,7 @@ func Trace() gin.HandlerFunc {
 		log.Info(c, "request info", log.Fields{
 			"path":    c.FullPath(),
 			"latency": fmt.Sprintf("%v ms", latency),
+			"params":  c.Params,
 		})
 		//log.Print(latency)
 		// 获取发送的 status

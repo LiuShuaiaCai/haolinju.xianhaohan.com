@@ -3,7 +3,7 @@ package routes
 import (
 	"github.com/gin-gonic/gin"
 	"haolinju.xianhaohan.com/internal/app/controllers"
-	"haolinju.xianhaohan.com/internal/app/controllers/comments"
+	"haolinju.xianhaohan.com/internal/app/controllers/commons"
 )
 
 func V1(router *gin.RouterGroup) {
@@ -12,10 +12,18 @@ func V1(router *gin.RouterGroup) {
 	v1.GET("/test", controllers.Users)
 
 	// 公共接口
-	comment := v1.Group("comment")
+	comment := v1.Group("common")
 	{
 		// 获取文件上传的配置信息
-		comment.GET("upload/config", comments.UploadConfig)
+		comment.GET("upload/config", commons.UploadConfig)
+	}
+
+	// Banner接口
+	banner := v1.Group("banner")
+	{
+		banner.POST("save", controllers.BannerSave)
+		banner.GET("list", controllers.BannerList)
+		banner.POST("delete/:id", controllers.BannerDelete)
 	}
 
 }
